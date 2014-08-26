@@ -1,4 +1,4 @@
-FROM tutum/nginx
+FROM lalyos/rpi-nginx
 MAINTAINER Feng Honglin <hfeng@tutum.co>
 
 RUN apt-get update
