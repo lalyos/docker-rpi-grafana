@@ -9,10 +9,4 @@ server {
     location /ping {
         return 200;
     }
-
-    location / {
-        auth_basic "Restricted";
-        auth_basic_user_file /app/.htpasswd;
-        try_files $uri $uri/ =404;
-    }
 }
